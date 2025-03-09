@@ -5,8 +5,8 @@ metadata:
   labels:
     app: bonjack-backend-tools
 data:
-  PORT: 3001
-  DATABASE_PORT: 5432
+  PORT: '3001'
+  DATABASE_PORT: '5432'
   DATABASE_HOST: postgres
   DATABASE_PASSWORD: SecurePassword
   DATABASE_USERNAME: postgres
