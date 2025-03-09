@@ -8,3 +8,4 @@ data:
   POSTGRES_DB: gorm
   POSTGRES_USER: postgres
   POSTGRES_PASSWORD: SecurePassword
+  PGDATA: /var/lib/postgresql/data/pgdata
