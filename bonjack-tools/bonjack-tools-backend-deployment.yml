@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bonjack-tools-backend
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: bonjack-tools-backend
+  template:
+    metadata:
+      labels:
+        app: bonjack-tools-backend
+    spec:
+      containers:
+        - image: registry.digitalocean.com/bonjack/bonjack-tools-backend-go:4b09261
+          name: bonjack-tools-backend
+          ports:
+            - containerPort: 3001
