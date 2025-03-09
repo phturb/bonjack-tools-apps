@@ -20,4 +20,4 @@ spec:
             - containerPort: 3001
           envFrom:
             - configMapRef:
-                name: bonjack-tools-backend-secret
+                name: bonjack-tools-backend-cm

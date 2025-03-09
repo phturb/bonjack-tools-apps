@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: bonjack-tools-backend-secret
+  name: bonjack-tools-backend-cm
   labels:
     app: bonjack-backend-tools
 data:
