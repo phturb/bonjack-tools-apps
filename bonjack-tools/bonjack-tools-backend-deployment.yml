@@ -21,3 +21,5 @@ spec:
           envFrom:
             - configMapRef:
                 name: bonjack-tools-backend-cm
+            - secretRef:
+                name: bonjack-tools-backend-secrets
